@@ -125,7 +125,7 @@ for (let i = 0; i < finances.length; i++) {
         maxDate = finances [i][0];
     }
 }
-document.write("<br>Greatest Increase in Profits: " +  maxDate +  " " + netMax.toString());
+document.write("<br>Greatest Increase in Profits: " +  maxDate +  " ($ " + netMax.toString() + " )");
 
 // * The greatest decrease in losses (date and amount) over the entire period.
 // When you open your code in the browser your resulting analysis should look similar to the following
@@ -146,4 +146,4 @@ for (let i = 0; i < finances.length; i++) {
         minDate = finances [i][0];
     }
 }
-document.write("<br>Greatest Increase in Profits: " + minDate + " " + netMin.toString());
+document.write("<br>Greatest Increase in Profits: " + minDate + " ($ " + netMin.toString() +" )");
