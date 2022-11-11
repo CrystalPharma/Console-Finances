@@ -24,7 +24,7 @@ The analysis details the following :
 Not applicable
 
 ## Usage
-Navigate to her live Portfolio website via the following hyperlink: 
+Navigate to the application via the following hyperlink: 
 https://crystalpharma.github.io/Console-Finances/
 
 Then, right click in the browser and select the inspect option to bring up the developer tool
