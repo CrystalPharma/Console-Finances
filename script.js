@@ -146,4 +146,4 @@ for (let i = 0; i < finances.length; i++) {
         minDate = finances [i][0];
     }
 }
-document.write("<br>Greatest Increase in Profits: " + minDate + " ($" + netMin.toString() +")");
+document.write("<br>Greatest Decrease in Profits: " + minDate + " ($" + netMin.toString() +")");
