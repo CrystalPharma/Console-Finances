@@ -88,11 +88,14 @@ var finances = [
 ];
 
 document.write("Financial Analysis <br>");
+console.log ("Financial Analysis");
 document.write("---------------------------- <br>");
+console.log ("----------------------------");
 
 // totalMonths 86
 var totalMonths = finances.length;
 document.write("Total months: " + totalMonths);
+console.log ("Total months: " + totalMonths);
 
 // * The net total amount of Profit/Losses over the entire period.
 let sum = 0;
@@ -100,11 +103,13 @@ for (var i = 0; i < finances.length; i++) {
     sum += finances[i][1];
 }
 document.write("<br>Total: $" + sum);
+console.log ("Total: $" +sum);
 
 // * The average of the **changes** in Profit/Losses over the entire period.
 //   * You will need to track what the total change in profits are from month to month and then find the average.
 var averageChanges = sum / totalMonths;
 document.write("<br>Average Change: $" + averageChanges);
+console.log ("Average Change: $" + averageChanges);
 
 // * The greatest increase in profits (date and amount) over the entire period.
 // var max = -Infinity;
@@ -126,6 +131,7 @@ for (let i = 0; i < finances.length; i++) {
     }
 }
 document.write("<br>Greatest Increase in Profits: " +  maxDate +  " ($" + netMax.toString() + ")");
+console.log ("Greatest Increase in Profits: " + maxDate + " ($" + netMax.toString() + ")");
 
 // * The greatest decrease in losses (date and amount) over the entire period.
 // When you open your code in the browser your resulting analysis should look similar to the following
@@ -147,3 +153,4 @@ for (let i = 0; i < finances.length; i++) {
     }
 }
 document.write("<br>Greatest Decrease in Profits: " + minDate + " ($" + netMin.toString() +")");
+console.log ("Greatest Decrease in Profits: " + minDate + " ($" + netMin.toString () + ")");
